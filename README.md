@@ -22,8 +22,27 @@ npm install
 Tạo file `.env`:
 
 PORT=any
+
 MONGO_URI=your_mongodb_connection
+
 JWT_SECRET=your_secret
 
 ## ▶️ Run
 npm start
+
+## APIs: 
+POST /login
+
+/register
+
+/users
+
+/quizzes
+
+/quizzes/:quizId
+
+/quizzes/:quizId/questions
+
+/questions
+
+/questions/:questionId
